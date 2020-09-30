@@ -1,38 +1,57 @@
+<!-- 
+        Déclaration du document en HTML
+    -->    
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-
+<!-- 
+        Balise, Méta dans le head
+    -->    
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Kevin LANEL - Formation développeur web by Coding Factory</title>
+    <meta name="description"
+        content="Découvrez le site CV de Kevin LANEL en formation à l'école de la Coding Factory de Cergy. Consultez mes compétences, mon parcours en tant que développeur Web">
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" />
-    <title>Cv Kevin LANEL</title>
 </head>
+<!-- 
+        Corps de notre page
+    -->
 <body>
-    <ul>
-        <li><a class="active" href="#acceuil">Moi</a></li>
-        <li><a href="#experience">Expérience</a></li>
-        <li><a href="#ecole">Education</a></li>
-        <li><a href="#competence">Compétences</a></li>
-    </ul>
+    <!-- 
+        Header de notre page
+    -->
+    <div class="pimg1"></div>
+    <div class="ptext">
+        <img class="logoIndex" src="assets/img/kevin.gif" alt="Logo Blanc tcvt" />
+        <h1>Kevin LANEL</h1>
+        <p class="profession">Développeur web</p>
+    </div>
+    </div>
+    <!-- 
+        Session Présentation
+    -->
     <section id="acceuil">
-        <div class="photo">
-            <img src="assets/img/kevin.gif" alt="Ma photo" />
-            <h1>Kevin LANEL</h1>
-        </div>
+        <hr>
         <div class="presentation">
             <h2>Qui suis-je ?</h2>
             <p>Afin de mener à bien ma reconversion professionnelle après 7 années réussies en tant que cuisinier, et
                 relever de nouveaux challenges, c'est tout naturellement que mon choix s'est porté vers ma passion «
                 l'informatique » et le métier de développeur web.</p>
+            <br>
             <p>Quel rapport entre un couteau et le codage me demanderez-vous ? Créativité, ouverture au monde dans la
                 diversité culinaire, gestion de projet et de temps, rigueur, autonomie, mais aussi travail en équipe !
             </p>
+            <br>
             <p>Les points communs sont nombreux et ces qualités m'ont permis de très vite me sentir à l'aise lors de la
                 formation intensive que j'ai suivi à l'Ecole E2N (labellisée "Grande Ecole du Numérique") dans le but
                 d'acquérir les compétences nécessaires pour devenir développeur web front et back-end.</p>
+            <br>
             <p>Pour continuer mon évolution j’intègre à la rentrée 2020 l’Ecole ITESIA -Cergy pour une formation en
                 alternance “Bachelor développeur Web Mobil” Bac +3 en 3 ans.</p>
+            <br>
             <p>Je recherche une expérience intense et enrichissante où, je mettrai mon savoir-faire en pratique ainsi
                 que mes bonnes pratiques en HTML, CSS, JavaScript, PHP, SQL. Organisé, doté d'un esprit d'analyse et
                 passionné par le WEB, je souhaite rejoindre une équipe qui me permettra, de part mon implication, de
@@ -41,7 +60,12 @@
             <a href="assets/doc/CvKL.pdf" target="_blank">Télécharger mon CV</a>
         </div>
     </section>
+    <div class="pimg3"></div>
+    <!-- 
+        Session Expérience
+    -->
     <section id="experience">
+        <hr>
         <h2>Expérience professionnelles</h2>
         <div class="exp">
             <div class="exp-logo">
@@ -85,7 +109,12 @@
             </div>
         </div>
     </section>
+    <div class="pimg4"></div>
+    <!-- 
+        Session Formation
+    -->
     <section id="ecole">
+        <hr>
         <h2>Formation</h2>
         <div class="exp">
             <div class="exp-logo">
@@ -126,9 +155,13 @@
             </div>
         </div>
     </section>
+    <div class="pimg5"></div>
+    <!-- 
+        Session Compétences
+    -->
     <section id="competence">
-        <h2>Compétences</h2>
         <hr>
+        <h2>Compétences</h2>
         <h3 class="middle_h3">Professionnelles</h3>
         <div class="comp">
             <div class="conteneur-barre"><span class="barre c75">HTML / CSS 75%</span></div>
@@ -162,7 +195,12 @@
             <div class="conteneur-barre"><span class="barre c75">Adaptation 75%</span></div>
         </div>
     </section>
+    <!-- 
+        Session Centre d'intérêt
+    -->
+    <div class="pimg6"></div>
     <section>
+        <hr>
         <h2>Centre d'intérêt</h2>
         <figure class="interet">
             <img src="assets/img/Loisir/tennis-loisir.jpg" alt="Tennis Loisir" />
@@ -181,36 +219,49 @@
             <figcaption>Littérature</figcaption>
         </figure>
     </section>
+    <div class="pimg2"></div>
+    <!-- 
+        Session Contact
+    -->
     <section>
-    <div class="contact">
-        <h2>Informations de contact</h2>
-        <div class="contact-flex">
-            <p>Nom : </p>
-            <p>LANEL Kévin</p>
+        <div class="contact">
+            <h2>Informations de contact</h2>
+            <div class="contact-flex">
+                <p>Nom : </p>
+                <p>LANEL Kévin</p>
+            </div>
+            <div class="contact-flex">
+                <p>Adresse :</p>
+                <p>15 résidance du moulin baudet - Chaumont en vexin</p>
+            </div>
+            <div class="contact-flex">
+                <p>Téléphone :</p>
+                <p>06 03 41 65 96</p>
+            </div>
+            <div class="contact-flex">
+                <p>Permis :</p>
+                <p>B</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/kevin.lanel.9" target="_blank"><img
+                        src="assets/img/Reseau_sociaux/facebook-logo.jpg" alt="Logo Facebook" /></a>
+                <a href="https://www.linkedin.com/in/kevin-lanel/" target="_blank"><img
+                        src="assets/img/Reseau_sociaux/linkedin-logo.jpg" alt="Logo Linkedin" /></a>
+            </div>
         </div>
-        <div class="contact-flex">
-            <p>Adresse :</p>
-            <p>15 résidance du moulin baudet - Chaumont en vexin</p>
-        </div>
-        <div class="contact-flex">
-            <p>Téléphone :</p>
-            <p>06 03 41 65 96</p>
-        </div>
-        <div class="contact-flex">
-            <p>Permis :</p>
-            <p>B</p>
-        </div>
-        <div class="social">
-            <a href="https://www.facebook.com/kevin.lanel.9" target="_blank"><img
-                    src="assets/img/Reseau_sociaux/facebook-logo.jpg" alt="Logo Facebook" /></a>
-            <a href="https://www.linkedin.com/in/kevin-lanel/" target="_blank"><img
-                    src="assets/img/Reseau_sociaux/linkedin-logo.jpg" alt="Logo Linkedin" /></a>
-        </div>
-    </div>
-</section>
+    </section>
+    <!-- 
+        Pied de notre page 
+    -->
     <footer>
         <p>© Kevin Lanel 2020</p>
     </footer>
+    <ul>
+        <li><a class="active" href="#acceuil">Moi</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#ecole">Education</a></li>
+        <li><a href="#competence">Compétences</a></li>
+    </ul>
 </body>
 
 </html>
